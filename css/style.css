@@ -1,0 +1,73 @@
+body {
+  background-color: var(--background-color);
+  font-family: 'Courier New', Courier, monospace;
+
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+
+  --background-color: #adee6c;
+  --primary: rgb(189, 239, 138);
+  --secondary: #0fa170;
+}
+
+#titleDiv {
+  text-align: center;
+}
+
+#glistatifisici {
+  text-decoration: underline;
+}
+
+#subtitle {
+  padding: 20px;
+}
+
+p {
+  font-size: 24px;
+  padding: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 32px;
+  color: black;
+  font-weight: bold;
+  margin: 20px;
+  background-color: var(--primary);
+  border-radius: 100px;
+  padding: 20px;
+}
+
+img {
+  padding-bottom: 50px;
+}
+
+#linkDiv {
+  top: 20%;
+  padding-bottom: 50px;
+}
+
+#container {
+  background-color: var(--secondary);
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  border-radius: 70px;
+}
+
+.underlined {
+  text-decoration: underline;
+}
